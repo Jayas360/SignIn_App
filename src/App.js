@@ -7,7 +7,7 @@ import ProtectedRoute from './ProtectedRoute';
 function App() {
 
   return (
-    <BrowserRouter className="App">
+    <BrowserRouter >
       <UserAuthContextProvider>
         <Routes>
           <Route exact path="/" element={<SignIn />} />

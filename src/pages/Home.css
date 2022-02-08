@@ -16,7 +16,7 @@ box-shadow: 0 0 10px 0 rgb(161, 160, 160);
 
 }
 
-header * {  
+header{  
     display: inline;  
  }  
 header li {  

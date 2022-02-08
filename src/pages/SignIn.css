@@ -58,7 +58,7 @@ div.signin-form button {
     box-shadow: 0.05em 0.06em whitesmoke;
     outline: white;
     cursor: pointer;
-} */
+}
 
 form button:hover {
     border-color: black;

@@ -13,12 +13,9 @@
     border-radius: 1em;
     padding: 0 1em ;
     box-shadow: 0.05em 0.06em 0.04em 0.05em grey ;
-    outline:invert ;
     outline-color: chartreuse;
     align-items: center;
 }
-
-
 
 .form-input button{
     display: block;
@@ -31,8 +28,7 @@
     box-shadow: 0.05em 0.06em 0.04em 0.05em grey ;
     background: green;
     margin-top: 5%;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 
@@ -67,7 +63,6 @@ form.reg-form p.error,.auth-error{
     margin: 0;
 }
  div.form-head p {
-    
     text-align: center;
     font-size: 2em;
     color: rgb(7, 196, 38);
