@@ -1,0 +1,76 @@
+.modal-form{
+    text-align: center;
+}
+
+.form-input input{
+    border:0.1em double whitesmoke;
+    width: 80%;
+    margin-top: 1em;
+    box-sizing: border-box;
+    height: 5vh;
+    font-size: 1.1em;
+    align-items: center;
+    border-radius: 1em;
+    padding: 0 1em ;
+    box-shadow: 0.05em 0.06em 0.04em 0.05em grey ;
+    outline:invert ;
+    outline-color: chartreuse;
+    align-items: center;
+}
+
+
+
+.form-input button{
+    display: block;
+    width:50%;
+    border:0.1em double whitesmoke;
+    height: 6vh;  
+    border-radius:2em ;
+    margin: auto;
+    font-size: 3vh;
+    box-shadow: 0.05em 0.06em 0.04em 0.05em grey ;
+    background: green;
+    margin-top: 5%;
+    cursor: pointer;
+    
+}
+
+
+.form-input button:hover{
+    border-color:rgb(56, 46, 45);
+}
+
+ .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out ;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+    backface-visibility:visible;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+    
+}
+
+div.logbtn button{
+    margin-top: 1em;
+    text-decoration: none;
+    background-color: rgb(168, 164, 164);
+}
+form.reg-form p.error,.auth-error{
+    color: rgb(252, 38, 38);
+    size: 0.1em;
+    margin: 0;
+}
+ div.form-head p {
+    
+    text-align: center;
+    font-size: 2em;
+    color: rgb(7, 196, 38);
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+} 
